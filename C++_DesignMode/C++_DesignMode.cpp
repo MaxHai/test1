@@ -30,6 +30,9 @@
 #include "ChainOfResponse.h"
 #include "Memento.h"
 #include "Mediator.h"
+#include "State.h"
+#include "Interpret.h"
+#include "Visitor.h"
 
 extern void CompositeModeTest();
 
@@ -65,7 +68,10 @@ int main()
 	//CommandModeTest();
 	//ChainOfResponseModeTest();
 	//MementoModeTest();
-	MediatorModeTest();
+	//MediatorModeTest();
+	//StateModeTest();
+	//InterpretModeTest();
+	VisitorModeTest();
 
 	return 0;
 }
