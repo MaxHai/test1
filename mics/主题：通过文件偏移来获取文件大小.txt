@@ -1,0 +1,10 @@
+
+伪代码：
+
+#include <sys/types.h> 
+#include <unistd.h>
+#include<fcntl.h>
+
+fp= open(pFilePath)
+off_set = lseek(pf, 0, SEEK_END)
+off_set = 文件大小
